@@ -165,7 +165,7 @@ I will not choose a 2nd predictor for this step. Instead I will search for the b
 In this step, I will try to find the best set of 2nd and 3rd predictors in addition to the 'sqft_living'.
 Here are the results:
 
-![2nd-3rd_Predictors_R2](/figures/2nd-3rd_Predictors_R2_small.png)
+![2nd-3rd_Predictors_R2](/figures/2nd-3rd_Predictors_R2.png)
 
 Observations:
 * As the number of the predictors increase, R squared value increased. The validation is still good.
