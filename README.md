@@ -37,9 +37,6 @@ Data contains
 
 Since our main goal is predicting sale price, let's look at the distribution of the House Sale Prices. The left plot shows the number of houses in y-axis and sale price on the x-axis. The right plot shows the same distribution on log scale. It will be easier to see the outliers on the log scale.
 
-![Price Distributions](/figures/priceDist.png)
-
-
 ![Price Distributions](/figures/priceDist2.png)
 
 
@@ -152,7 +149,7 @@ I remove the 'sqft_living' and its correlated variables ('bedrooms', 'bathrooms'
 
 Here is the R squared scores for LinearRegression fits on training and testing data using two predictors ('sqft_living' + ?)
 
-![2ndPredictors_R2](/figures/2ndPredictors_R2.png)
+![2ndPredictors_R2](/figures/2ndPredictors_R2_small.png)
 
 Observations:
 * Adding a 2nd predictor to baseline model improved the R squared value both on training and testing data.
@@ -168,7 +165,7 @@ I will not choose a 2nd predictor for this step. Instead I will search for the b
 In this step, I will try to find the best set of 2nd and 3rd predictors in addition to the 'sqft_living'.
 Here are the results:
 
-![2nd-3rd_Predictors_R2](/figures/2nd-3rd_Predictors_R2.png)
+![2nd-3rd_Predictors_R2](/figures/2nd-3rd_Predictors_R2_small.png)
 
 Observations:
 * As the number of the predictors increase, R squared value increased. The validation is still good.
