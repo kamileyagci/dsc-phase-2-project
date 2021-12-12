@@ -53,7 +53,7 @@ One of my business question is about the effect of renovation on sale price; so 
 In general, location is an important factor in house prices. I want to take a closer look at 'zipcode', before making a decision on keeping it or not. 
 The below plot shows the sale price vs zipcode and the average price per zipcode.
 
-![Zipcode Distribution](/figures/zipcode.png)
+![price-vs-zipCode](/figures/price-vs-zipCode.png)
 
 The house prices peak at few zipcodes. How significant is this? I decided to keep 'zipcode' in my data. I have applied hot-encoding to create dummy variables for each zipcode.
 
@@ -101,20 +101,26 @@ I choose to use 'sqft_living' in my baseline model since it is a continious vari
 
 **There are three steps in modeling:**
 1. Seperate data into train and test splits
+
 I used sklearn train_test_split method to split data. I allocated 80% of the data for training and 20% for testing.
 
 2. Apply Linear Fit to training data and make predictions
+
 I used sklearn LinearRegression method to fit the data.
+
 Linear equation with one independent variable is  y = m.x + b, where x is the independent variable, y is dependent varaible, m is slope and b is y-intercept.
+
 In our fit, independent variable (x) is 'sqft_living' and dependent variable (y) is 'price'. When Linear Regression fit applied, it produces two values: slope (coefficient) and y-intercept (intercept).
+
 Here are the results of our baseline fit:
     Slope: 285.58593563
     y-intercept: -53321.493253810564
 
 3. Validate predictions:
+
 I calculated the predicted price and then R squared for both training and testing data, and then plotted:
-R squared for Training: 0.4951005996564265
-R squared for Testing: 0.48322207729033984
+    R squared for Training: 0.4951005996564265
+    R squared for Testing: 0.48322207729033984
 
 ![baselineFit_sqft](/figures/baselineFit_sqft.png)
 
@@ -122,8 +128,11 @@ The R squared score for training and test scores are similar. The Training and T
 
 #### Model Validation with Multiple splits of data
 Seperating the data in training and test splits is a random process. We can improve the validation by repeating the process (split, fit, predict, validate) multiple times and finding the mean R squared scores.
-I used the sklearn methods cross_validate and ShuffleSplit for the purpose. Here is the R squared results:
-Mean R squared for Training:      0.4911536443241339
+
+I used the sklearn methods cross_validate and ShuffleSplit for the purpose. 
+
+Here is the R squared results:
+Mean R squared for Training: 0.4911536443241339
 Mean R squared for Testing: 0.49607012939083434
 
 As the number of splits increase, the difference between the Train and Test score decreases.
