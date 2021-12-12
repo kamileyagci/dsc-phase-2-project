@@ -4,7 +4,7 @@
 
 ![Price Distributions](/figures/King_County_Downtown_ed.jpeg)
 
-<a href="//commons.wikimedia.org/wiki/User:Jmabel" title="User:Jmabel">Joe Mabel</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=74506051">Link</a>
+<a href="//commons.wikimedia.org/wiki/User:Jmabel" title="User:Jmabel"><img src="/figures/King_County_Downtown_ed.jpeg"/></a>
 
 ## Overview
 In this project, I will analyze the King County House Sales. The Windermere Real Estate Agency hired me to develop a model to predict the house sale prices in King County. The agency plans to use the results of this study when advising their customers/homeowners on determining the value of their houses. They believe that the pricing the house correctly will increase the efficiency of sales. The agency also would like to learn about the effect of renovations on house sale prices, so they can advise the customers to do renovation or not. 
