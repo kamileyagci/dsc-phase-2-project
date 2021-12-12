@@ -2,8 +2,6 @@
 
 **Author: Kamile Yagci**
 
-![Price Distributions](/figures/King_County_Downtown_ed.jpeg)
-
 <a href="//commons.wikimedia.org/wiki/User:Jmabel" title="User:Jmabel"><img src="/figures/King_County_Downtown_ed.jpeg"/></a>
 
 ## Overview
