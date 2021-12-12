@@ -5,15 +5,17 @@
 <a href="//commons.wikimedia.org/wiki/User:Jmabel" title="User:Jmabel"><img src="/figures/King_County_Downtown_ed.jpeg"/></a>
 
 ## Overview
-In this project, I analyzed the King County House Sales. The Windermere Real Estate Agency hired me to develop a model to predict the house sale prices in King County. The agency plans to use the results of this study when advising their customers/homeowners on determining the value of their houses. They believe that the pricing the house correctly will increase the efficiency of sales. The agency also would like to learn about the effect of renovations on house sale prices, so they can advise the customers to do renovation or not. 
+In this project, I analyzed the King County House Sales. I used the Multiple Linear Regression to predict the house sale prices in King County. 
 
-### Business Questions
+### Business Problem
+The Windermere Real Estate Agency hired me to develop a model to predict the house sale prices in King County. The agency plans to use the results of this study when advising their customers/homeowners on determining the value of their houses. They believe that the pricing the house correctly will increase the efficiency of sales. The agency also would like to learn about the effect of renovations on house sale prices, so they can advise the customers to do renovation or not. 
+
 * What are the main predictors for House Sale Price?
 * Create a model to predict the House Sale Price.
 * Do house renovation affects the Sale Price?
 
 ## Method
-I followed the following steps for this study:
+I followed the following steps in this project:
 1. Data
     * Load
     * Explore
@@ -30,9 +32,11 @@ I followed the following steps for this study:
 
 
 ## Data
+
+### Source
 I used the King County House Sales Data for this study. The data file is 'kc_house_data.csv'
 
-### Explore Data 
+### Data Exploring
 Data contains 
 * information on 21597 houses sold between May 2014 - May 2015.
 * 21 columns: 'id', 'date', 'price', 'bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'waterfront', 'view', 'condition', 'grade', 'sqft_above', 'sqft_basement', 'yr_built', 'yr_renovated', 'zipcode', 'lat', 'long', 'sqft_living15', 'sqft_lot15'
@@ -44,7 +48,7 @@ Since our main goal is predicting sale price, let's look at the distribution of 
 The 'price' looks like a left-skewed normal distribution. There are fewer houses above $3,000,000. I guess they are outliers on the data.
 
 
-### Clean Data
+### Data Cleaning
 The Project 2 infomation page recommends to remove these columns to ease the analysis: ['date', 'view', 'sqft_above', 'sqft_basement', 'yr_renovated', 'zipcode', 'lat', 'long', 'sqft_living15', 'sqft_lot15']
 
 I follow the advise and remove these variables except 'yr_renovated' and maybe 'zipcode'
