@@ -41,7 +41,7 @@ Since our main goal is predicting sale price, let's look at the distribution of 
 
 Here's a **cat** for you 
 
-<img src="/figures/priceDist.png" width=400 height=400 />
+<img src="/figures/priceDist.png" width=1800 height=600 />
 
 
 ### Clean Data
