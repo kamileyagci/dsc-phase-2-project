@@ -70,8 +70,27 @@ The columns: 'date', 'view', 'sqft_above', 'sqft_basement', 'lat', 'long', 'sqft
 * Null values in 'waterfront' is filled with zero.
 * A boolean variable is created for 'yr_renovated' and the null/zero values in yr-renovated are filled with yr_built.
 
+After the completion of data cleaning, the full list of data columns are:
+'id', 'price', 'bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot',
+       'floors', 'waterfront', 'condition', 'grade', 'yr_built',
+       'yr_renovated', 'yr_renovated_bool', 'zip_98002', 'zip_98003',
+       'zip_98004', 'zip_98005', 'zip_98006', 'zip_98007', 'zip_98008',
+       'zip_98010', 'zip_98011', 'zip_98014', 'zip_98019', 'zip_98022',
+       'zip_98023', 'zip_98024', 'zip_98027', 'zip_98028', 'zip_98029',
+       'zip_98030', 'zip_98031', 'zip_98032', 'zip_98033', 'zip_98034',
+       'zip_98038', 'zip_98039', 'zip_98040', 'zip_98042', 'zip_98045',
+       'zip_98052', 'zip_98053', 'zip_98055', 'zip_98056', 'zip_98058',
+       'zip_98059', 'zip_98065', 'zip_98070', 'zip_98072', 'zip_98074',
+       'zip_98075', 'zip_98077', 'zip_98092', 'zip_98102', 'zip_98103',
+       'zip_98105', 'zip_98106', 'zip_98107', 'zip_98108', 'zip_98109',
+       'zip_98112', 'zip_98115', 'zip_98116', 'zip_98117', 'zip_98118',
+       'zip_98119', 'zip_98122', 'zip_98125', 'zip_98126', 'zip_98133',
+       'zip_98136', 'zip_98144', 'zip_98146', 'zip_98148', 'zip_98155',
+       'zip_98166', 'zip_98168', 'zip_98177', 'zip_98178', 'zip_98188',
+       'zip_98198', 'zip_98199'
+
 ### Correlation
-The correlation heat map will help to see the correlations between variables.
+The correlation heat map will help to see the correlations between variables. The dummy zipcodes are not included in the correlation study.
 
 ![Heat Map](/figures/heatMap.png)
 
