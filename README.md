@@ -10,6 +10,7 @@ In this project, I analyzed the King County House Sales. I used the Multiple Lin
 ### Business Problem
 The Windermere Real Estate Agency hired me to develop a model to predict the house sale prices in King County. The agency plans to use the results of this study when advising their customers/homeowners on determining the value of their houses. They believe that the pricing the house correctly will increase the efficiency of sales. The agency also would like to learn about the effect of renovation on house sale price, so they can advise the customers to do renovation or not. 
 
+Questions:
 * What are the main predictors for House Sale Price?
 * Create a model to predict the House Sale Price.
 * Do house renovation affects the Sale Price?
@@ -298,7 +299,7 @@ Some sale price prdictions:
 1. sqft_living=2800, waterfront=0, year_built=1978, zipcode_98004=0, zipcode_98039=0         => price = 713342.1052993718  # control set
 2. sqft_living=4200, waterfront=0, year_built=1978, zipcode_98004=0, zipcode_98039=0         => price = 1111595.4730236786 # sqft_living effect
 3. sqft_living=2800, waterfront=1, year_built=1978, zipcode_98004=0, zipcode_98039=0         => price = 1517404.8278655098 # waterfront effect
-4. sqft_living=2800, waterfront=0, year_built=1978, zipcode_98004=0, zipcode_98039=0         => price = 636682.9802501751 # year_built effect effect
+4. sqft_living=2800, waterfront=0, year_built=2015, zipcode_98004=0, zipcode_98039=0         => price = 636682.9802501751 # year_built effect effect
 5. sqft_living=2800, waterfront=0, year_built=1978, zipcode_98004=1, zipcode_98039=0         => price = 1333492.6308398792 # zipcode 98004 effect
 6. sqft_living=2800, waterfront=0, year_built=1978, zipcode_98004=0, zipcode_98039=1         => price = 1875578.8361759782 # zipcode 98039 effect
 
