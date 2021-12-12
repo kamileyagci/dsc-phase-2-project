@@ -149,7 +149,7 @@ I remove the 'sqft_living' and its correlated variables ('bedrooms', 'bathrooms'
 
 Here is the R squared scores for LinearRegression fits on training and testing data using two predictors ('sqft_living' + ?)
 
-<img src="/figures/2ndPredictors_R2.png" width=500/>
+<img src="/figures/2ndPredictors_R2.png" width=520/>
 
 Observations:
 * Adding a 2nd predictor to baseline model improved the R squared value both on training and testing data.
