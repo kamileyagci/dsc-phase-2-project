@@ -282,6 +282,12 @@ Observations:
 * The data looks like normal distribution close to center, but it is skewed at the tails.
 * I believe skewness is caused by the outliners at the high sale prices.
 
+Let's look at the residual distributions closely.
+
+![residualDist](/figures/residualDist.png)
+
+Residual distribution looks normal except on the tails. The data in tails causes a bit skewness. I believe the residual values on the tails are caused by outliers, the houses at high sale prices.
+
 I conclude that Normality assumption holds for the majority of the data, except outliers at high sale prices.
 
 ### Investigating Multicollinearity (Independence Assumption)
@@ -310,6 +316,18 @@ Observations:
 * Funneling increases at high house sale prices.
 
 I conclude that Homoscedasticity assumption is violated.
+
+Even though the correlation is not high for the sqft_living and yr_built, it still caused considerable multicollinearity. Why are they correlated?
+
+![yearBuilt-vs-sqft.png](/figures/yearBuilt-vs-sqft.png.png)
+
+The plot shows slight correlation. The new houses looks like a bit larger.
+
+The 'sqft_living' and 'yr_built' are main predictors. Should I remove 'year_built' from model? But it will decrease the R squared.
+
+Using Statmodel OLS fit, I calculated R squared with and without 'yr_built'
+* R_squared = 0.617 Cond. No. = 2.07e+05 when five final model predictors used ('sqft_living', 'waterfront', 'yr_built', 'zip_98004', 'zip_98039').
+* R_squared = 0.592 Cond. No. = 4.75e+04 when four predictors used ('sqft_living', 'waterfront', 'zip_98004', 'zip_98039').
 
 ### Linear Regression Assumptions Conclusion
 * Linearity assumption holds for the majority of the data, except outliers at high sale prices.
