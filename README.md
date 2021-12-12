@@ -76,20 +76,20 @@ I drew the correlation heat map to see the correlations between variables.
 ![Heat Map](/figures/heatMap.png)
 
 I also looked at the correlation values for 'price':
-* id                  -0.016772
-* price                1.000000
-* bedrooms             0.308787
-* bathrooms            0.525906
-* sqft_living          0.701917
-* sqft_lot             0.089876
-* floors               0.256804
-* waterfront           0.264306
-* condition            0.036056
-* grade                0.667951
-* yr_built             0.053953
-* yr_renovated         0.097541
-* zipcode             -0.053402
-* yr_renovated_bool    0.117543
+* id: -0.016772
+* price: 1.000000
+* bedrooms: 0.308787
+* bathrooms: 0.525906
+* sqft_living: 0.701917
+* sqft_lot: 0.089876
+* floors: 0.256804
+* waterfront: 0.264306
+* condition: 0.036056
+* grade: 0.667951
+* yr_built: 0.053953
+* yr_renovated: 0.097541
+* zipcode: -0.053402
+* yr_renovated_bool: 0.117543
 
 Observations:
 * There is good correlation between Price and (bedrooms, bathrooms, sqft_living, grade).
