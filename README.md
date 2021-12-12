@@ -39,8 +39,6 @@ Since our main goal is predicting sale price, let's look at the distribution of 
 
 ![Price Distributions](/figures/priceDist2.png)
 
-<img src="/figures/priceDist.png" width=1800/>
-
 
 ### Clean Data
 The Project 2 infomation page recommends to remove these columns to ease the analysis: ['date', 'view', 'sqft_above', 'sqft_basement', 'yr_renovated', 'zipcode', 'lat', 'long', 'sqft_living15', 'sqft_lot15']
@@ -167,7 +165,7 @@ I will not choose a 2nd predictor for this step. Instead I will search for the b
 In this step, I will try to find the best set of 2nd and 3rd predictors in addition to the 'sqft_living'.
 Here are the results:
 
-<img src="/figures/2nd-3rd_Predictors_R2.png" width=500/>
+<img src="/figures/2nd-3rd_Predictors_R2.png" width=550/>
 
 Observations:
 * As the number of the predictors increase, R squared value increased. The validation is still good.
