@@ -319,7 +319,7 @@ I conclude that Homoscedasticity assumption is violated.
 
 Even though the correlation is not high for the sqft_living and yr_built, it still caused considerable multicollinearity. Why are they correlated?
 
-![yearBuilt-vs-sqft.png](/figures/yearBuilt-vs-sqft.png.png)
+![yearBuilt-vs-sqft.png](/figures/yearBuilt-vs-sqft.png)
 
 The plot shows slight correlation. The new houses looks like a bit larger.
 
