@@ -37,7 +37,8 @@ Data contains
 
 Since our main goal is predicting sale price, let's look at the distribution of the House Sale Prices. The left plot shows the number of houses in y-axis and sale price on the x-axis. The right plot shows the same distribution on log scale. It will be easier to see the outliers on the log scale.
 
-![Price Distributions](/figures/priceDist.png)
+![Price Distributions](/figures/priceDist.png){: width="36px"}
+
 
 ### Clean Data
 The Project 2 infomation page recommends to remove these columns to ease the analysis: ['date', 'view', 'sqft_above', 'sqft_basement', 'yr_renovated', 'zipcode', 'lat', 'long', 'sqft_living15', 'sqft_lot15']
@@ -210,6 +211,7 @@ It is also interesting to note that 'yr_built' has negative coefficient.
 I would like to see if and how much house renovations effect the House Sale Prices. 
 
 Let's apply the linear fit with one predictor only: 'yr_renovated'.
+Result:
 * Slope: 1300.35687138
 * y-intercept: -2022535.979409572
 * R squared for Training: 0.010206187304151793
@@ -229,11 +231,11 @@ I conclude that House Renovation doesn't have significant effect on House Sale P
 ## Final Model Interpretation
 Here is the parameters for my final model:
 * Coefficients:
-    ** sqft_living    2.844667e+02
-    ** waterfront     8.040627e+05
-    ** yr_built      -2.071868e+03
-    ** zip_98004      6.201505e+05
-    ** zip_98039      1.162237e+06
+    * sqft_living    2.844667e+02
+    * waterfront     8.040627e+05
+    * yr_built      -2.071868e+03
+    * zip_98004      6.201505e+05
+    * zip_98039      1.162237e+06
 * Intercept: 4014990.7576159136
 
 Observations:
