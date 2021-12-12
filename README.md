@@ -347,17 +347,6 @@ Observations:
 
 I conclude that Independence Assumption is violated since significant multicollinearity is observed.
 
-### Investigating Homoscedasticity
-I will look at the Residual vs Predicted values for house prices on testing data. The shape of the graph will tell me about the Homoscedasticity.
-
-![Homoscedasticity](/figures/Homoscedasticity.png)
-
-Observations:
-* The cone/funnel shape is observed on data.
-* Funnel gets larger at high house sale prices.
-
-I conclude that Homoscedasticity assumption is violated.
-
 Even though the correlation is not high for the sqft_living and yr_built, it still caused considerable multicollinearity. Why are they correlated?
 
 ![yearBuilt-vs-sqft.png](/figures/yearBuilt-vs-sqft.png)
@@ -369,6 +358,18 @@ The 'sqft_living' and 'yr_built' are main predictors. Should I remove 'year_buil
 Using Statmodel OLS fit, I calculated R squared with and without 'yr_built'
 * R_squared = 0.617 Cond. No. = 2.07e+05 when five final model predictors used ('sqft_living', 'waterfront', 'yr_built', 'zip_98004', 'zip_98039').
 * R_squared = 0.592 Cond. No. = 4.75e+04 when four predictors used ('sqft_living', 'waterfront', 'zip_98004', 'zip_98039').
+
+### Investigating Homoscedasticity
+I will look at the Residual vs Predicted values for house prices on testing data. The shape of the graph will tell me about the Homoscedasticity.
+
+![Homoscedasticity](/figures/Homoscedasticity.png)
+
+Observations:
+* The cone/funnel shape is observed on data.
+* Funnel gets larger at high house sale prices.
+
+I conclude that Homoscedasticity assumption is violated.
+
 
 ### Linear Regression Assumptions Conclusion
 * Linearity assumption holds for the majority of the data, except outliers at high sale prices.
