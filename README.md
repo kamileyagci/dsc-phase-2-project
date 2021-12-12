@@ -70,7 +70,9 @@ The columns: 'date', 'view', 'sqft_above', 'sqft_basement', 'lat', 'long', 'sqft
 * Null values in 'waterfront' is filled with zero.
 * A boolean variable is created for 'yr_renovated' and the null/zero values in yr-renovated are filled with yr_built.
 
+#### Final data columns
 After the completion of data cleaning, the full list of data columns are:
+
 'id', 'price', 'bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot',
        'floors', 'waterfront', 'condition', 'grade', 'yr_built',
        'yr_renovated', 'yr_renovated_bool', 'zip_98002', 'zip_98003',
