@@ -92,7 +92,7 @@ After the completion of data cleaning, the full list of data columns are:
        'zip_98198', 'zip_98199'
 
 ### Correlation
-The correlation heat map will help to see the correlations between variables. The dummy zipcodes are not included in the correlation study.
+The correlation heat map will help to observe the correlations between variables. The dummy zipcodes are not included in the correlation study.
 
 ![Heat Map](/figures/heatMap.png)
 
