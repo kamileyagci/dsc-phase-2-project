@@ -37,7 +37,7 @@ Data contains
 
 Since our main goal is predicting sale price, let's look at the distribution of the House Sale Prices. The left plot shows the number of houses in y-axis and sale price on the x-axis. The right plot shows the same distribution on log scale. It will be easier to see the outliers on the log scale.
 
-![Price Distributions](/figures/priceDist.png){: width="36px"}
+![Price Distributions](/figures/priceDist.png){width="36px"}
 
 
 ### Clean Data
