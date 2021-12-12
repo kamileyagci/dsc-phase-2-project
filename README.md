@@ -5,10 +5,10 @@
 <a href="//commons.wikimedia.org/wiki/User:Jmabel" title="User:Jmabel"><img src="/figures/King_County_Downtown_ed.jpeg"/></a>
 
 ## Overview
-In this project, I analyzed the King County House Sales. I used the Multiple Linear Regression to predict the house sale prices in King County. 
+In this project, I analyzed the King County House Sales. I used the Multiple Linear Regression to model the data and predict the house sale prices in King County. 
 
 ### Business Problem
-The Windermere Real Estate Agency hired me to develop a model to predict the house sale prices in King County. The agency plans to use the results of this study when advising their customers/homeowners on determining the value of their houses. They believe that the pricing the house correctly will increase the efficiency of sales. The agency also would like to learn about the effect of renovations on house sale prices, so they can advise the customers to do renovation or not. 
+The Windermere Real Estate Agency hired me to develop a model to predict the house sale prices in King County. The agency plans to use the results of this study when advising their customers/homeowners on determining the value of their houses. They believe that the pricing the house correctly will increase the efficiency of sales. The agency also would like to learn about the effect of renovation on house sale price, so they can advise the customers to do renovation or not. 
 
 * What are the main predictors for House Sale Price?
 * Create a model to predict the House Sale Price.
