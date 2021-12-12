@@ -149,7 +149,7 @@ I remove the 'sqft_living' and its correlated variables ('bedrooms', 'bathrooms'
 
 Here is the R squared scores for LinearRegression fits on training and testing data using two predictors ('sqft_living' + ?)
 
-<img src="/figures/2ndPredictors_R2.png" width=500/>
+<img src="/figures/2ndPredictors_R2.png" width=550/>
 
 Observations:
 * Adding a 2nd predictor to baseline model improved the R squared value both on training and testing data.
@@ -165,7 +165,7 @@ I will not choose a 2nd predictor for this step. Instead I will search for the b
 In this step, I will try to find the best set of 2nd and 3rd predictors in addition to the 'sqft_living'.
 Here are the results:
 
-<img src="/figures/2nd-3rd_Predictors_R2.png" width=530/>
+<img src="/figures/2nd-3rd_Predictors_R2.png" width=600/>
 
 Observations:
 * As the number of the predictors increase, R squared value increased. The validation is still good.
