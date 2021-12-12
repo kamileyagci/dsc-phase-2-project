@@ -284,7 +284,7 @@ Observations:
 
 Let's look at the residual distributions closely.
 
-![residualDist](/figures/residualDist.png)
+![residualDist](/figures/residualDist2.png)
 
 Residual distribution looks normal except on the tails. The data in tails causes a bit skewness. I believe the residual values on the tails are caused by outliers, the houses at high sale prices.
 
