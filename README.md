@@ -16,6 +16,7 @@ Questions:
 * Do house renovation affects the Sale Price?
 
 ## Method
+
 I followed the following steps in this project:
 1. Data
     * Load
@@ -148,11 +149,11 @@ I choose to use 'sqft_living' in my baseline model since it is a continuous vari
 **There are three steps in modeling:**
 1. Seperate data into train and test splits
 
-    I used sklearn train_test_split method to split data. I allocated 80% of the data for training and 20% for testing.
+    I used sklearn train_test_split function to split data. I allocated 75% of the data for training and 25% for testing (default).
 
 2. Apply Linear Fit to training data and make predictions
 
-    I used sklearn LinearRegression method to fit the data.
+    I used sklearn LinearRegression function to fit the data.
 
     Linear equation with one independent variable is  y = m.x + b, where x is the independent variable, y is dependent varaible, m is slope and b is y-intercept.
 
@@ -175,11 +176,11 @@ The R squared score for training and test scores are similar. The Training and T
 #### Model Validation with Multiple splits of data
 Seperating the data in training and test splits is a random process. We can improve the validation by repeating the process (split, fit, predict, validate) multiple times and finding the mean R squared scores.
 
-I used the sklearn methods cross_validate and ShuffleSplit moethods for this purpose. 
+I used the sklearn functions cross_validate and ShuffleSplit moethods for this purpose. 
 
 Here is the R squared results:
-* Mean R squared for Training: 0.4911536443241339
-* Mean R squared for Testing: 0.49607012939083434
+* Mean R squared for Training: 0.49093640472300526
+* Mean R squared for Testing: 0.4960198399390211
 
 As the number of splits increase, the difference between the Train and Test score decreases.
 
@@ -228,8 +229,8 @@ Validation looks pretty good.
 
 Let's double check the validation with multisplitter:
 * Final model predictors: ['sqft_living', 'waterfront', 'yr_built', 'zip_98004', 'zip_98039']
-* Mean R squared for Training:      0.6135724222328819
-* Mean R squared for Testing: 0.6256321951893684
+* Mean R squared for Training:      0.6132165670165712
+* Mean R squared for Testing: 0.6242740771569494
 
 
 ### RMSE calculation
