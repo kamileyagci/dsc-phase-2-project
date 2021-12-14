@@ -379,6 +379,12 @@ I conclude that Homoscedasticity assumption is violated.
 * I conclude that Homoscedasticity assumption is violated.
 
 ## Future Work
-* Two of four linear regression assuptions failed. The others two also fail at high sale prices. I guess one of the main causes for the violations is outliers. For future work, I need to study outliers, and maybe remove from data.
-* The correlation between sqft_living and yr_built is interesting. This needs to be investigated. The multicollinearity caused by their correlation affects the model. Should 'yr_built' be removed from model? Advantages and disadvantages?
-* Apparently residual increases as the sale price increases. Homoscedasticity even observed at low house sale prices. How can we avoid it? Can we?
+* Study outliers: 
+    * I guess one of the main causes for the assumption violations is outliers.
+    * Remove from analysis?
+* Study correlation between sqft_living and yr_built:
+    * The multicollinearity caused by their correlation affects the model. 
+    * Should 'yr_built' be removed from model? Advantages and disadvantages?
+* Explore Homoscedasticity
+    * Homoscedasticity is observed at low house sale prices as well as high. 
+    * How can we avoid it?
