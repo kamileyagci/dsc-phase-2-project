@@ -209,7 +209,7 @@ I will not choose a 2nd predictor for this step. Instead I will search for the b
 In this step, I will try to find the best set of 2nd and 3rd predictors in addition to the 'sqft_living'.
 Here are the results:
 
-<img src="/figures/bestPredictors_scatter.png" width=550/>
+<img src="/figures/2nd-3rd_Predictors_R2.png" width=550/>
 
 Observations:
 * As the number of the predictors increase, R squared value increased. 
@@ -221,7 +221,7 @@ In final model, I will use all the top 5 predictors: sqft_living, waterfront, zi
 
 Let's first look at the scatter graphs of these predictors.
 
-<img src="/figures/2nd-3rd_Predictors_R2.png" width=550/>
+![bestPredictors_scatter](/figures/bestPredictors_scatter.png)
 
 Now, I apply Multiple Linear regression on top 5 predictors to see how much my model improves. 
 
