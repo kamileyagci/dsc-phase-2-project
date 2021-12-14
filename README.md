@@ -209,7 +209,7 @@ I will not choose a 2nd predictor for this step. Instead I will search for the b
 In this step, I will try to find the best set of 2nd and 3rd predictors in addition to the 'sqft_living'.
 Here are the results:
 
-<img src="/figures/2nd-3rd_Predictors_R2.png" width=550/>
+<img src="/figures/bestPredictors_scatter.png" width=550/>
 
 Observations:
 * As the number of the predictors increase, R squared value increased. 
@@ -217,7 +217,15 @@ Observations:
 * The predictors sets which includes variables "sqft_living, waterfront, zip_98004, yr_built, and zip_98039" give similar R_squared values for training and test.
 
 ### Final Model with 5 predictors
-In final model, I will use all the top 5 predictors to see how much our fit improves.
+In final model, I will use all the top 5 predictors: sqft_living, waterfront, zip_98004, yr_built, and zip_98039.
+
+Let's first look at the scatter graphs of these predictors.
+
+<img src="/figures/2nd-3rd_Predictors_R2.png" width=550/>
+
+Now, I apply Multiple Linear regression on top 5 predictors to see how much my model improves. 
+
+Results of final model:
 
 * Final model predictors: ['sqft_living', 'waterfront', 'yr_built', 'zip_98004', 'zip_98039']
 * R squared for Training: 0.6159271322430281
