@@ -385,6 +385,6 @@ I conclude that Homoscedasticity assumption is violated.
 * Study correlation between sqft_living and yr_built:
     * The multicollinearity caused by their correlation affects the model. 
     * Should 'yr_built' be removed from model? Advantages and disadvantages?
-* Explore Homoscedasticity
+* Explore Homoscedasticity:
     * Homoscedasticity is observed at low house sale prices as well as high. 
     * How can we avoid it?
