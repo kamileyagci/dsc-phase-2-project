@@ -45,7 +45,7 @@ Data contains
 
 Since our main goal is predicting sale price, let's look at the distribution of the House Sale Prices. The left plot shows the number of houses in y-axis and sale price on the x-axis. The right plot shows the same distribution on log scale. It will be easier to see the outliers on the log scale.
 
-![Price Distributions](/figures/priceDist2.png)
+![Price Distributions](/figures/priceDist.png)
 
 The 'price' looks like a left-skewed normal distribution. There are fewer houses above $3,000,000. I guess they are outliers on the data.
 
