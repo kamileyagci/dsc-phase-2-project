@@ -163,7 +163,7 @@ I choose to use 'sqft_living' in my baseline model since it is a continuous vari
     * Slope: 285.58593563
     * y-intercept: -53321.493253810564
 
-3. Validate predictions:
+3. Validate model:
 
     I calculated the predicted price and then calculated R squared for both training and testing data, and then plotted:
     * R squared for Training: 0.4951005996564265
